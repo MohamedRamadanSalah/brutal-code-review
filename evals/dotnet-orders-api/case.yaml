@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: dotnet-orders-api
+expected_outcome: |
+  A brutal, profane but evidence-backed review that finds the SQL injection, the singleton-over-scoped-DbContext captive dependency, the IDOR on Get/Close, async void + .Result, double for money and SaveChanges in a loop; cites file:line; does not falsely claim the endpoints lack authentication (a FallbackPolicy requires it); ends with lessons and a quiz; writes a ledger.
+context:
+  scaffold_script: place-files.sh

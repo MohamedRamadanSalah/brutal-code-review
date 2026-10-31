@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: flutter-checkout-screen
+expected_outcome: |
+  A brutal, evidence-backed review that finds context-after-await, FutureBuilder future created in build, the undisposed TextEditingController, token in SharedPreferences, the int-vs-double JSON cast crash, ignored HTTP status / no double-submit guard, and networking logic inside the widget; does not falsely claim the ScrollController is undisposed; ends with lessons and a quiz; writes a ledger.
+context:
+  scaffold_script: place-files.sh

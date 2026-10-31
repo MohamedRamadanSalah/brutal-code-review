@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: coupon-repeat-offender
+expected_outcome: |
+  A brutal, evidence-backed business-logic review that finds the client-trusted DiscountAmount, the check-then-act race on coupon usage, the unowned order (IDOR), the ignored MinOrderTotal / negative total, and DateTime.Now vs UTC; recognizes check-then-act and DateTime.Now as repeat offenses from the ledger and escalates; does not claim [Authorize] or the Code unique index are missing; updates the ledger counts.
+context:
+  scaffold_script: place-files.sh
